@@ -13,7 +13,7 @@ print(files)
 with open("thekey.key", "rb") as key:
         secretkey = key.read()
 
-secretphrase = "ensigninfosecurity"
+secretphrase = "slebewkang"
 user_phrase = input("Enter the key to decrypt your files \n")
 if user_phrase == secretphrase: 
 
